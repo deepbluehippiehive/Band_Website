@@ -1263,6 +1263,15 @@ div.maintitleblue h1 > span.color{
 /*=================================================================
   Services section 2
 ==================================================================*/
+#corn-exchange{
+  margin-left: 390px;;
+}
+
+.service-icon.text-center.corn-Exchange > img {
+  width: fit-content;
+  height: fit-content;
+}
+
 .service-2 .service-item {
   border: 1px solid #eee;
   margin-bottom: 30px;
