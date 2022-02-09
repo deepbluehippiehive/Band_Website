@@ -1,11 +1,3 @@
-/*
-Template Name: Meghna Responsive HTML5/CSS3 Business Template
-Author: Themefisher
-Author URI: www.Themefisher.com
-Description: Meghna Responsive HTML5/CSS3 Portfolio Template
-Version: 1.0
-Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive, html5, css3
-*/
 /*=== MEDIA QUERY ===*/
 
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
@@ -560,14 +552,14 @@ a:hover {
 /*=================================================================
   Sub Titles
 ==================================================================*/
-.about-us-sub-title h2{
+.Stream-sub-title h2{
   color:#dbd4aae3;
 }
 .tickets-sub-title h2{ 
   color:#dbd4aae3;
 }
 
-div.about-us-sub-title h2 > span.color{
+div.Stream-sub-title h2 > span.color{
   color: #455de0e3;
 }
 
@@ -700,6 +692,7 @@ div.maintitleblue h1 > span.color{
 
 .maintitleblue {
   letter-spacing: 2px;
+  margin-bottom: -50px;
 }
 
 @media (max-width: 480px) {
@@ -759,144 +752,19 @@ div.maintitleblue h1 > span.color{
 }
 
 /*=================================================================
-  About us section
+  Stream section
 ==================================================================*/
-.about .block {
-  background: #242930;
-  padding: 30px;
-  border-bottom: 2px solid transparent;
-  transition: .5s all;
-  margin-bottom: 20px;
-
+.col-md-6.Stream-content {
+  margin-left: 390px; 
 }
 
-.about .block:hover {
-  border-bottom: 2px solid #455de0e3;
+.col-md-6.Stream-content a {
+  margin-left: 0px; 
 }
 
-.about .block:hover .icon-box {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+.music-links { 
+  margin-left: -120px; 
 }
-
-.about .block .icon-box {
-  position: relative;
-  width: 160px;
-  height: 92.38px;
-  background-color: transparent;
-  margin: 46.19px auto 60px;
-  padding: 20px 0;
-  border-left: 2px solid rgba(236, 239, 241, 0.07);
-  border-right: 2px solid rgba(236, 239, 241, 0.07);
-  font-size: 50px;
-  -webkit-transform: translateZ(0px);
-          transform: translateZ(0px);
-  transition-duration: 0.3s;
-  transition-property: -webkit-transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
-}
-
-.about .block .icon-box img{
-  width: 100px;
-  height: 100px;
-  margin-top: -20px;
-}
-
-.about .block .icon-box:after, .about .block .icon-box:before {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  width: 113.14px;
-  height: 113.14px;
-  background-color: inherit;
-  left: 20.4315px;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-          transform: scaleY(0.5774) rotate(-45deg);
-}
-
-.about .block .icon-box:before {
-  top: -56.5685px;
-  border-top: 2px solid rgba(236, 239, 241, 0.07);
-  border-right: 2px solid rgba(236, 239, 241, 0.07);
-}
-
-.about .block .icon-box:after {
-  bottom: -56.5685px;
-  border-bottom: 2px solid rgba(236, 239, 241, 0.07);
-  border-left: 2px solid rgba(236, 239, 241, 0.07);
-}
-
-.about .block .icon-box h3 {
-  color: #afbac4;
-}
-
-.region-para p{ 
-  font-family: "Gorgia";
-}		
-.genre-para p{
-  font-family: "Gorgia";
-}
-.future-para p{ 
-  font-family: "Gorgia";
-}
-
-/*=================================================================
-  About us 2 section
-==================================================================*/
-#about{ 
-  margin-bottom: -140px;
-}
-
-.col-md-6.padding-0 > img{
-  width: 800px;
-  height: 800px; 
-  margin-top: -150px; 
-  margin-left: 50px;
-}
-
-.about-2 .content-block {
-  padding: 40px;
-  margin-left: -70px;
-}
-
-.about-2 .content-block p{
-  font-family: "Georgia";
-  margin-top: 10px;
-}
-
-.col-md-6{
-  margin-left: -30px; 
-}
-
-.col-md-6-2{
-  margin-left: -20px; 
-}
-
-.about-2 .content-block .media {
-  margin-top: 25px;
-  margin-left: -40px; 
-}
-
-.about-2 .content-block .media .pull-left {
-  padding-right: 15px;
-}
-
-.about-2 .content-block .media .pull-left > img {
-  margin-top: -5px;
-}
-
-.about-2 .content-block .media i {
-  font-size: 30px;
-  color: #455de0e3;
-}
-
-.about-2 .content-block .media h4 {
-  font-size: 20px;
-  font-weight: 200;
-}
-
-
 /*=================================================================
  Call To Action 2
 ==================================================================*/
@@ -1019,122 +887,6 @@ div.maintitleblue h1 > span.color{
 }
 
 /*=================================================================
-  Item counter section
-==================================================================*/
-.counters-item {
-  padding: 25px 0;
-  margin-bottom: 10px;
-  background: #292F36;
-}
-
-.counters-item i {
-  margin-bottom: 10px;
-  font-size: 40px;
-  display: inline-block;
-}
-
-.counters-item span {
-  display: block;
-  font-weight: bold;
-  font-size: 35px;
-  line-height: 50px;
-}
-
-.counters-item h3 {
-  font-size: 20px;
-  margin: 0;
-}
-
-.fan-base { 
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-
-.gigs { 
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-
-.festival {
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-
-.radio {
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-
-.single {
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-
-.ep {
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-
-.album {
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-/*=================================================================
-  Pricing section
-==================================================================*/
-.price-item {
-  border: 1px solid rgba(236, 239, 241, 0.07);
-  padding-bottom: 30px;
-  margin-bottom: 15px;
-}
-
-.price-title {
-  background-color: #292F36;
-  padding: 30px 0 20px;
-}
-
-.price-title h3 {
-  color: #57cbcc;
-  margin: 0 0 10px;
-  text-transform: uppercase;
-}
-
-.price-title p {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.price-title .value {
-  color: #57cbcc;
-  font-size: 30px;
-}
-
-.pricing li {
-  padding: 10px 0;
-}
-
-.pricing li:last-child {
-  border-bottom: 1px solid rgba(236, 239, 241, 0.07);
-  margin-bottom: 20px;
-}
-
-.pricing li:nth-child(2n) {
-  background-color: #292F36;
-}
-
-.pricing li .btn {
-  text-transform: uppercase;
-  margin: 20px 0;
-}
-
-/*=================================================================
   Merchendise section
 ==================================================================*/
 .portfolio-filter {
@@ -1245,7 +997,7 @@ div.maintitleblue h1 > span.color{
 }
 
 /*=================================================================
-  Services section
+  Tickets section
 ==================================================================*/
 .service-block {
   padding: 60px 20px;
@@ -1260,9 +1012,7 @@ div.maintitleblue h1 > span.color{
   font-size: 50px;
 }
 
-/*=================================================================
-  Services section 2
-==================================================================*/
+
 #corn-exchange{
   margin-left: 390px;;
 }
@@ -1319,7 +1069,62 @@ div.maintitleblue h1 > span.color{
 /*=================================================================
   The band
 ==================================================================*/
+.band-block {
+  position: relative;
+  margin-bottom: 20px;
+}
 
+.band-block:before {
+  transition: all 0.3s ease-in-out;
+  background: white;
+  opacity: 0;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  position: absolute;
+  content: '';
+}
+
+
+
+.band-block:hover:before {
+  opacity: 1;
+}
+
+.band-block:hover .caption h4 {
+  top: 45%;
+}
+
+.band-block:hover .caption {
+  opacity: 1;
+  top: 55%;
+}
+
+.band-block .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 9;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+
+.band-block .caption h4 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.band-block .caption h4 a {
+  color: #dbd4aae3;
+}
+
+.band-block .caption p {
+  color: whitesmoke;
+}
 
 .team-member {
   background-color: #292F36;
