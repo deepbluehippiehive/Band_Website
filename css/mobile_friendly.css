@@ -1088,8 +1088,8 @@ div.maintitleblue h1 > span.color{
   transition: all 0.3s ease 0s;
 }
 
-.service-icon.text-center.corn-Exchange > img {
-  margin-left: -10px;
+.service-icon.text-center.old_town > img {
+  margin-left: 0px;
 }
 
 .service-2 .service-item:hover {
